@@ -2,13 +2,13 @@ require 'json'
 version = JSON.parse(File.read('package.json'))["version"]
 
 Pod::Spec.new do |s|
-  s.name         = "RNReactNativeHapticFeedback"
+  s.name         = "react-native-haptic-feedback"
   s.version      = version
-  s.summary      = "RNReactNativeHapticFeedback"
+  s.summary      = "react-native-haptic-feedback"
   s.description  = <<-DESC
-                  RNReactNativeHapticFeedback
+                  react-native-haptic-feedback
                    DESC
-  s.homepage     = "https://github.com/mkuczera/react-native-haptic-feedback"
+  s.homepage     = "https://github.com/perrystreetsoftware/react-native-haptic-feedback"
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "author@domain.cn" }
